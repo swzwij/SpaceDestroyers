@@ -25,7 +25,7 @@ public class MainScreenScript : MonoBehaviour
     public void Extra()
     {
         //Debug.Log("Extra");
-        SceneManager.LoadScene("Extra"); // Loads Extra Scnene
+        SceneManager.LoadScene("Extra2"); // Loads Extra Scnene
     }
 
     // Function to close game

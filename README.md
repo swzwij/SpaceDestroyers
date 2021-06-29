@@ -1,1 +1,2 @@
-# SpaceDestroyers
+# ExpandingSpace
+Project for school

@@ -16,27 +16,31 @@ public class ExtraMenu : MonoBehaviour
     public void Facts()
     {
         Debug.Log("Options");
-        SceneManager.LoadScene("Facts"); // Loads Facts Scnene
+        SceneManager.LoadScene("Facts2"); // Loads Facts Scnene
     }
 
     public void extra()
     {
         //Debug.Log("Options");
-        SceneManager.LoadScene("Extra"); // Loads Extra Scnene
+        SceneManager.LoadScene("Extra2"); // Loads Extra Scnene
     }
     public void Albert()
     {
         //Debug.Log("Options");
-        SceneManager.LoadScene("Albert"); // Loads Albert Scnene
+        SceneManager.LoadScene("Albert2"); // Loads Albert Scnene
     }
     public void Laika()
     {
         //Debug.Log("Options");
-        SceneManager.LoadScene("Laika"); // Loads Laika Scnene
+        SceneManager.LoadScene("Laika2"); // Loads Laika Scnene
     }
     public void Fel()
     {
         //Debug.Log("Options");
-        SceneManager.LoadScene("Felicette"); // Loads Fel Scnene
+        SceneManager.LoadScene("Felicette2"); // Loads Fel Scnene
+    }
+    public void Main()
+    {
+        SceneManager.LoadScene("Main");
     }
 }

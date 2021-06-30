@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-	private void Start()
-    {
-	
-    }
+    GameObject ScoreManager;
 
-    private void Update()
-    {
-        
-    }
 
     void OnCollisionEnter2D(Collision2D col)
     {
@@ -20,6 +13,13 @@ public class Enemy : MonoBehaviour
         {
             Destroy(col.gameObject);
             Destroy(gameObject);
+
+            GameObject ScoreManager = GameObject.Find("ScoreManager");
+            High_Score score = ScoreManager.GetComponent<High_Score>();
+            score.currentScore++;
+
+           
+
         }
     }
 

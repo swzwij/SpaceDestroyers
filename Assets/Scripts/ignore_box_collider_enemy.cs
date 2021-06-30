@@ -13,8 +13,13 @@ public class ignore_box_collider_enemy : MonoBehaviour
         {
             Physics2D.IgnoreCollision(Enemy.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         }
-        
+
+        foreach (GameObject Enemy in GameObject.FindGameObjectsWithTag("Bullet"))
+        {
+            Physics2D.IgnoreCollision(Enemy.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
+
     }
 
-    
+
 }

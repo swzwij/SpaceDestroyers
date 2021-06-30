@@ -7,10 +7,12 @@ public class High_Score : MonoBehaviour
 {
     public int currentScore;
     public Text scoreText;
+    public Text EndScore;
 
     void Update()
     {
         scoreText.text = "Score: " + currentScore;
+        EndScore.text = "" + currentScore;
     }
 
 }

@@ -9,7 +9,7 @@ public class ExtraMenu : MonoBehaviour
     public void Credits()
     {
         //Debug.Log("Options");
-        SceneManager.LoadScene("Credits"); // Loads Credit Scnene
+        SceneManager.LoadScene("Credits2"); // Loads Credit Scnene
     }
 
     // Function to open options

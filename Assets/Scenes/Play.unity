@@ -1816,6 +1816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScore: 0
   scoreText: {fileID: 1421768449}
+  EndScore: {fileID: 791882669}
 --- !u!4 &1050392800
 Transform:
   m_ObjectHideFlags: 0
